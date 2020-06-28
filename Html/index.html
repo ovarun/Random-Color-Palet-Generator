@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Hello Bulma!</title>
+	    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">  
+	    <link rel="stylesheet" href="style.css">
+
+	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  		<script src="script.js"></script> 
+	</head> 
+	<body>
+		<div class="container"> 
+			<div class="row">
+        		<div class="col-md-8 mx-auto">
+			    	<div class="card border-0"> 
+				        <div class="card-body text-center">
+			                <div class="numberCircle shadow-sm ">
+								<img src="logo.png" class="">
+			                </div>
+			                <div class="text-center" id="loading">
+							  	<div class="spinner-border" role="status">
+							    	<span class="sr-only">Loading...</span>
+							  	</div>
+							</div>
+			                <div class="row px-5" style="display: none" id="palet">
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color1" id="IColor_Div"></div>
+									<label id="IColor_label">#</label> 
+								</div> 
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color2" id="IIColor_Div"></div>
+									<label id="IIColor_label">#</label> 
+								</div> 
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color3" id="IIIColor_Div"></div>
+									<label id="IIIColor_label">#</label> 
+								</div> 
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color4" id="IVColor_Div"></div>
+									<label id="IVColor_label">#</label> 
+								</div> 
+			                </div> 
+			                <div class="row px-5" style="display: " id="palet">
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color1" id="RIColor_Div"></div>
+									<label id="RIColor_label">#</label> 
+								</div> 
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color2" id="RIIColor_Div"></div>
+									<label id="RIIColor_label">#</label> 
+								</div> 
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color3" id="RIIIColor_Div"></div>
+									<label id="RIIIColor_label">#</label> 
+								</div> 
+								<div class="col-md-3 margin0 padding0">
+									<div class="colorDiv color4" id="RIVColor_Div"></div>
+									<label id="RIVColor_label">#</label> 
+								</div> 
+			                </div> 
+							<div class="row">
+        						<div class="col-md-8 mx-auto">
+        						<div id="buncls"></div>
+        							<button type="button" class="btn btn-primary" onclick="refresh()">Refresh</button>
+        							<!--div class="btn-group" role="group" aria-label="Basic example">
+									  <button type="button" class="btn btn-secondary">Left</button>
+									  <button type="button" class="btn btn-secondary">Middle</button>
+									  <button type="button" class="btn btn-secondary">Right</button>
+									</div-->
+        						</div>
+							</div>
+				        </div>
+			      	</div>
+			    </div>
+			</div>
+	    </div>
+	</body>
+</html>
